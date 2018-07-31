@@ -4,7 +4,7 @@
 
 .main {
   position: relative;
-  width: 400px;
+  width: 550px;
   margin: 0 auto;
   top: 150px;
   border: 1px dotted black;
@@ -17,7 +17,9 @@
 }
 
 .main input {
-  width: 100%;
+  display: block;
+  width: 90%;
   padding: 10px;
   font-size: 16px;
+  margin: 0 auto;
 }
