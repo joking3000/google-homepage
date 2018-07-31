@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
-  .main {
-    position: relative;
-    width: 400px;
-    margin: 0 auto;
-    top: 150px;
-    border: 1px dotted black
-  }
+.main {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  top: 150px;
+  border: 1px dotted black
+}
 
-.main input{
+.main input {
   width: 100%;
   padding: 10px;
   font-size: 16px;
