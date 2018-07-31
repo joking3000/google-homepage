@@ -19,12 +19,13 @@
 .main input[type="text"] {
   display: block;
   width: 90%;
-  padding: 12px;
+  padding: 12px 15px;
   font-size: 16px;
   margin: 0 auto 10px;
   border: 1px solid white;
   border-radius: 2px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: 200ms;
 }
 
 .main input[type="text"]:hover {
