@@ -7,13 +7,13 @@
   width: 550px;
   margin: 0 auto;
   top: 150px;
-  border: 1px dotted black;
+  /* border: 1px dotted black; */
 }
 
 .main img {
   display: block;
-  margin: 0 auto;
-  border: 1px dotted black;
+  margin: 0 auto 25px;
+  /* border: 1px dotted black; */
 }
 
 .main input {
