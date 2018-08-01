@@ -45,4 +45,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}  
+}
+
+
+
+/* To reset Safari Forms   */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
