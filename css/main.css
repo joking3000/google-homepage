@@ -195,3 +195,10 @@ div.footer div.navigation a {
   height: 40px;
   margin: 0;
 }
+
+div.footer-container {
+  position: absolute;
+  top: 540px;
+  height: calc(100% - 540px);
+  width: 100%;
+}
