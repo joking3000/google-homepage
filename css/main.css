@@ -85,8 +85,7 @@ div.navigation {
   position: absolute;
   top: 16px;
   min-width: 980px;
-  margin: 0 25px;
-  padding-right: 25px;
+  padding: 0 25px;
   display: block;
   width: 100%;
   align-items: center;
@@ -107,7 +106,7 @@ div.navigation {
 }
 
 .navigation .sign-in-button {
-  margin: 0 6px 0 0 ;
+  margin: 0 5px 0 0 ;
   cursor: default;
   background: -moz-linear-gradient(top,#4387fd,#4683ea);
   background: linear-gradient(top,#4387fd,#4683ea);
@@ -122,4 +121,19 @@ div.navigation {
 .sign-in-button:hover, .sign-in-button:focus {
   text-decoration: none;
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.navigation a.google-apps {
+  margin: 0;
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/symbols.png);
+  background-size: 528px 68px;
+  background-position: -132px -38px;
+  margin: 0 15px 0 -2px;
+  opacity: .55;
+}
+
+.navigation a.google-apps:hover {
+  opacity: .85;
 }
