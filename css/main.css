@@ -148,6 +148,20 @@ div.navigation {
   margin: -2px 0 0;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  top: 1px;
+  position: absolute;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
 .footer {
   position: absolute;
   bottom: 0px;
@@ -161,18 +175,23 @@ div.footer div.navigation, div.footer div {
   position: relative;
   border-top: 1px solid #e4e4e4;
   margin: 0;
-  bottom: -16px;
   background-color: #f2f2f2;
   padding-right: 8px;
+  top: 0;
 }
 
 .footer .country {
   font-size: 15px;
   font-family: arial, sans-serif;
-  padding: 10px 0 11px 30px;
+  padding: 12px 0 11px 30px;
   color: rgba(0,0,0,.54);
+  height: 41px;
 }
 
 div.footer div.navigation a {
-  padding:  6px 5px 12px 5px;
+  display: inline-block;
+  padding:  14px 22px 9px 5px;
+  color: #666;
+  height: 40px;
+  margin: 0;
 }
