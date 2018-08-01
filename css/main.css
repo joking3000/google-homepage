@@ -70,3 +70,22 @@ div.buttons input[type="submit"]:hover {
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	color: #222;
 }
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+.navigation {
+  position: absolute;
+  top: 22px;
+}
+
+.navigation a{
+  color: rgba(0, 0, 0, 0.75)
+}
